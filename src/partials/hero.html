@@ -8,8 +8,8 @@
       <a href="#" class="navbar-title">Contacts</a>
     </nav>
     <div class="navbar-buttons">
-      <a class="navbar-buttons__login" href="#">Login</a>
-      <button class="navbar-buttons__join">
+      <a class="navbar-buttons__login" href="#" data-modal-hero-open>Login</a>
+      <button class="navbar-buttons__join" type="button">
         JOIN US
         <svg class="navbar-buttons__icon" width="12" height="10">
           <use href="./images/hero/sprite.svg#arrow"></use>
@@ -29,14 +29,15 @@
           from over 10,000 teachers
         </p>
         <div class="hero-buttons">
-          <button class="hero-quote-button">Get Quote Now</button>
-          <button class="hero-learnmore-button">Learn More</button>
+          <button class="hero-quote-button" type="button">Get Quote Now</button>
+          <button class="hero-learnmore-button" type="button">Learn More</button>
         </div>
       </div>
       <div class="hero-images">
-        <div>
-          <img src="./images/hero/boy.png" />
-          <img src="./images/hero/woman.png" />
+        <div class="hero-images__container">
+          <div class="hero-images__square"></div>
+          <img class="hero-images__boy" src="./images/hero/boy.png" alt="boy" />
+          <img class="hero-images__woman" src="./images/hero/woman.png" alt="woman" />
         </div>
       </div>
     </div>
