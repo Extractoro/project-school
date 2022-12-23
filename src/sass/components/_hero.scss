@@ -103,9 +103,12 @@
   }
   &-container {
     display: flex;
+    margin-top: 180px;
+    padding-bottom: 130px;
   }
   &-welcome {
-    margin: 180px 510px 0 0;
+    margin-right: 510px;
+    padding-bottom: 40px;
   }
   &-buttons {
     margin-top: 40px;
@@ -135,5 +138,27 @@
     border: 1px solid #ff6551;
     border-radius: 5px;
     background-color: #26335d;
+  }
+  &-images {
+    margin-top: -90px;
+    &__container {
+      position: relative;
+    }
+    &__square {
+      width: 116px;
+      height: 138px;
+      background: rgb(255, 101, 81);
+      position: absolute;
+      top: -27px;
+      right: -39px;
+    }
+    &__woman {
+      position: absolute;
+      bottom: -80px;
+      left: -89px;
+    }
+    &__boy {
+      position: relative;
+    }
   }
 }
